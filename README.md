@@ -26,7 +26,19 @@ Update the channels list: Open the script file and modify the channels array wit
 
 ## Run the script:
 
-In the terminal, run the following command to start the process:
+### 1.Edit the channels list
+In the script file (dwn.js), you'll find the channels array, which contains the list of channels you want to search for.
+
+To add or remove channels:
+
+Add a channel: Simply type the channel name inside the quotes and separate it with a comma.
+Remove a channel: Delete the channel name and the comma after it.
+Here’s how the channels list might look:
+```
+const channels = ['user1','user2','user3']
+```
+
+### 2.In the terminal, run the following command to start the process:
 
 bash
 ```
